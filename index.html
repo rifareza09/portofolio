@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio - Rifa Reza Fahlevi | Web Developer & IT Professional">
+    <title>Rifa Reza Fahlevi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#home" class="logo">
+                    <span class="logo-text">My Portfolio</span>
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-controls">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-overlay"></div>
+            <div class="particles" id="particles"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hi, I'm</span>
+                        <span class="name">Rifa Reza Fahlevi</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        <span class="typing-text" id="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </p>
+                    <p class="hero-description">
+                        Computer Science student passionate about full stack web development. 
+                        Currently seeking internship opportunities to contribute to innovative web solutions 
+                        and grow as a developer.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get In Touch</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="images/profile.jpeg" alt="Rifa Reza Fahlevi">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text reveal">
+                    <h3>About Me</h3>
+                    <p>
+                        Undergraduate Computer Science student with hands-on experience in web development and 
+                        collaborative team projects. Experienced in Laravel, PHP, and React.js, and currently 
+                        learning Vue.js, Nuxt.js, and Node.js.
+                    </p>
+                    <p>
+                        Interested in contributing to product development and research-driven web solutions 
+                        through an internship opportunity. Passionate about learning new technologies and 
+                        building practical solutions.
+                    </p>
+                    
+                    <div class="about-info">
+                        <div class="info-item reveal">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="info-label">Location</span>
+                                <span class="info-value">Indonesia</span>
+                            </div>
+                        </div>
+                        <div class="info-item reveal">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <span class="info-label">Education</span>
+                                <span class="info-value">Computer Science Student</span>
+                            </div>
+                        </div>
+                        <div class="info-item reveal">
+                            <i class="fas fa-laptop-code"></i>
+                            <div>
+                                <span class="info-label">Focus</span>
+                                <span class="info-value">Full Stack Development</span>
+                            </div>
+                        </div>
+                        <div class="info-item reveal">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <span class="info-label">Experience</span>
+                                <span class="info-value">Freelance Web Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category reveal">
+                    <h3><i class="fas fa-laptop-code"></i> Frontend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>HTML5 & CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Vue.js (Learning)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal">
+                    <h3><i class="fas fa-server"></i> Backend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>PHP</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Laravel</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Node.js (Learning)</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Nuxt.js (Learning)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal">
+                    <h3><i class="fas fa-database"></i> Database & API</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>RESTful API</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Postman</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal">
+                    <h3><i class="fas fa-tools"></i> Tools & Version Control</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Git & GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Figma</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Bootstrap & Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">Some projects I've worked on</p>
+            </div>
+
+            <div class="projects-grid" id="projects-grid">
+                <!-- Project 1: Orbit -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Orbit</h3>
+                        <p class="project-description">
+                            A web development project showcasing modern development practices and technologies.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/rifareza09/orbit" target="_blank" rel="noopener noreferrer" class="project-link project-link-primary">
+                                <i class="fab fa-github"></i>
+                                <span>View on GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: QR Attendance Students -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <i class="fas fa-qrcode"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">QR Attendance System</h3>
+                        <p class="project-description">
+                            Student attendance system using QR code technology for efficient class management.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/rifareza09/Qr_attendance_students" target="_blank" rel="noopener noreferrer" class="project-link project-link-primary">
+                                <i class="fab fa-github"></i>
+                                <span>View on GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Placeholder for more projects -->
+                <div class="project-card add-more-card reveal">
+                    <div class="project-image" style="background: linear-gradient(135deg, #64748b, #94a3b8);">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">More Projects Coming Soon</h3>
+                        <p class="project-description">
+                            Currently working on more exciting projects. Stay tuned for updates!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="github-link-section">
+                <a href="https://github.com/rifareza09" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                    <i class="fab fa-github"></i>
+                    <span>View All Projects on GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info-intro reveal">
+                    <p>Feel free to reach out to me through any of these channels. I'm always open to discussing internship opportunities, collaborative projects, or just connecting with fellow developers!</p>
+                </div>
+                
+                <div class="contact-items-grid">
+                    <a href="mailto:rifarezafahlevi09@gmail.com" class="contact-item reveal">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>rifarezafahlevi09@gmail.com</p>
+                        </div>
+                    </a>
+
+                    <a href="https://wa.me/6282114312390" target="_blank" rel="noopener noreferrer" class="contact-item reveal">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>WhatsApp</h4>
+                            <p>+62 821-1431-2390</p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/rifarezafahlevi" target="_blank" rel="noopener noreferrer" class="contact-item reveal">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/rifarezafahlevi</p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.instagram.com/rifareza_/" target="_blank" rel="noopener noreferrer" class="contact-item reveal">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Instagram</h4>
+                            <p>@rifareza_</p>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/rifareza09" target="_blank" rel="noopener noreferrer" class="contact-item reveal">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <p>github.com/rifareza09</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Rifa Reza Fahlevi</h3>
+                    <p>Building digital solutions with passion and precision.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/rifareza09" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rifarezafahlevi" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/rifareza_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/6282114312390" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="mailto:rifarezafahlevi09@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rifa Reza Fahlevi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

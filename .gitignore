@@ -1,0 +1,22 @@
+# Folders
+images/
+node_modules/
+.vscode/
+
+# Files
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
